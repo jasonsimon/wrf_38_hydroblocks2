@@ -367,7 +367,7 @@ rconfig   integer crm_adj_uv_opt          namelist,crm   max_domains        0   
 rconfig   integer crm_uv_rlx_opt          namelist,crm   max_domains        0          rh    "crm_uv_rlx_opt"       "Switch for u,v relaxation"     ""
 rconfig   integer crm_vert_adv_opt        namelist,crm   max_domains        0          rh    "crm_vert_adv_opt"     "Switch for vertical adv"     ""
 rconfig   integer crm_wcpa_opt            namelist,crm   max_domains        0          rh    "crm_wcpa_opt"         "Switch for wcpa term"     ""
-rconfig   integer crm_num_force_layers    namelist,crm   max_domains        15         rh    "crm_num_force_layers" "Number of forcing layers"     ""
+rconfig   integer crm_num_force_layers    namelist,crm   1        15         rh    "crm_num_force_layers" "Number of forcing layers"     ""
 rconfig   real    crm_tau_s               namelist,crm   max_domains        10800      rh    "crm_tau_s"            "Relaxation time scale for scalar"  "s"
 rconfig   real    crm_tau_m               namelist,crm   max_domains        10800      rh    "crm_tau_m"            "Relaxation time scale for momentum" "s"
 rconfig   integer crm_flx_opt             namelist,crm   max_domains        0	     rh    "crm_flx_opt"          "Switch for surface flux"      ""
